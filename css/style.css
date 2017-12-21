@@ -5,6 +5,7 @@
 	background-color: #D9E8F5;
 	border-radius: 15px;
 	margin: 0 auto;
+	margin-top: 70px;
 }
 
 .screen {
@@ -15,10 +16,29 @@
 	border-radius: 15px;
 }
 
+#display {
+	direction: rtl;
+	font-family: 'Bungee';
+	font-size: 30px;
+	margin-right: 30px;
+	color: #2E3D42;
+}
+
 button {
 	height: 40px;
 	width: 84px;
 	margin: 15px 20px;
-	border-radius: 15px;
-	
+	border-radius: 5px;
+	border: none;
+	background-color: #678796;
+	color: white;
+	font-family: 'Bungee';
+}
+
+#equals {
+	background-color: #F0A35E;
+}
+
+#plus, #minus, #clear, #multiply, #divide, #pi {
+	background-color: #82AABA;
 }
